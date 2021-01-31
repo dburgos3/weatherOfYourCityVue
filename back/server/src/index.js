@@ -1,6 +1,9 @@
 const { getLocation, getWeather } = require('./helpers')
 const express = require('express')
 const app = express()
+const cors = require('cors')
+
+app.use(cors({ origin: 'http://localhost:8080' }))
 
 app.get('/weather', async (req, res) => {
   const { city } = req.query
