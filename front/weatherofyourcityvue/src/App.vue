@@ -1,29 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Bienvenido a WeatherOfYourCityApp" />
-    <p>{{ weather }}</p>
-  </div>
+  <v-app>
+    <v-app-bar app color="grey darken-3" dark> </v-app-bar>
+    <v-main>
+      <MainView />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainView from './components/MainView'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+    MainView
+  },
+
+  data: () => ({
+    //
+  })
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
