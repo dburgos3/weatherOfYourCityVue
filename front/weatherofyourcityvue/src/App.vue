@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <v-app-bar app color="grey darken-3" dark> </v-app-bar>
+    <v-app-bar app color="grey darken-2" dark> </v-app-bar>
+
     <v-main>
       <MainView />
     </v-main>
