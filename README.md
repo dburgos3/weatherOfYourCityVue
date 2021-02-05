@@ -22,4 +22,4 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 ### `npm start`
 
 Runs the back-end.<br />
-This runs in [http://localhost:4000](http://localhost:8080), this comand mmust be executing in server folder (./back/server)
+This runs in [http://localhost:4000](http://localhost:8080), this comand must be executing in server folder (./back/server)
